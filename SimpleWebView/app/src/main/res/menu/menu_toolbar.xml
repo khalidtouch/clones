@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuSearch"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menuRefresh"
+        android:icon="@drawable/ic_refresh_24"
+        android:title="Refresh"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuDefaultEngine"
+        android:icon="@drawable/ic_prefs_24"
+        android:title="Default Engine"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/menuStop"
+        android:icon="@drawable/ic_clear_24"
+        android:title="Stop"
+        app:showAsAction="never" />
+
+
+</menu>
