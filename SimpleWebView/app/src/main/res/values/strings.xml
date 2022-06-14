@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleWebView</string>
+    <string name="search_engine_baidu">https://www.baidu.com/s?wd=%s</string>
+    <string name="search_engine_google">https://www.google.com/search?q=%s</string>
+    <string name="search_replacement">%s</string>
+    <string name="search_engine_description">Add search engine here, and the query or words should be replaced with [%s], like this:\nhttps://www.baidu.com/s?wd=%s\nhttps://www.google.com/search?q=%s\nAfter adding to the list, click and select one as the search engine!</string>
+</resources>
